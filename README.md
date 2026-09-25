@@ -2,6 +2,8 @@
 
 Smooth exponential breathing effect on a red LED using ESP32 LEDC pulse width modulation (PWM)
 
+![esp32](https://raw.githubusercontent.com/vehsamrak/esp32-led-breathing-pwm/main/docs/photo_800.jpg)
+
 ## Requirements
 
 - [arduino-cli](https://arduino.github.io/arduino-cli/)
