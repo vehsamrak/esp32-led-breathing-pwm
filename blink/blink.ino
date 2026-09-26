@@ -1,7 +1,7 @@
-#define LEDPIN 13
-#define FREQUENCY 5000
-#define RESOLUTION 8
-#define STEPS 30
+constexpr int LEDPIN = 13; // pin number
+constexpr int FREQUENCY = 5000;
+constexpr int RESOLUTION = 8;
+constexpr int STEPS = 30;
 
 // Precomputed gamma brightness lookup table (30 steps, 0..255).
 // Human eye perceives brightness logarithmically, so a linear PWM ramp
