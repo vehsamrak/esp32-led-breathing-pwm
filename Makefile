@@ -11,11 +11,11 @@ logs-raw:
 
 .PHONY: build
 build: 
-	arduino-cli compile --fqbn $(FQBN) ./src 2>&1 | tail -15
+	arduino-cli compile --fqbn $(FQBN) ./blink 2>&1 | tail -15
 
 .PHONY: upload
 upload:
-	arduino-cli upload -p $(BOARD_PORT) --fqbn $(FQBN) ./src 2>&1 | tail -5
+	arduino-cli upload -p $(BOARD_PORT) --fqbn $(FQBN) ./blink 2>&1 | tail -5
 
 .PHONY: deploy
 deploy: build upload
